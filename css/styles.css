@@ -1,0 +1,94 @@
+/*
+ creamy: #FEFFDE
+ light: #DDFFBC
+ middle: #91C788
+ dark: #52734D
+*/
+
+body {
+    background-color: #FEFFDE;
+    margin: 150px 0 0;
+    font-family: 'Andada', serif;
+
+}
+h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+h2,h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+.bar {
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #91C788;
+    border-style: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.bar_buttons {
+    background-color: #91C788;
+    display: inline-block;
+    position: fixed;
+    top: 30px;
+}
+
+
+.top {
+    height: auto;
+
+}
+
+#top_text {
+    z-index: 3;
+    display: inline-block;
+    position: absolute;
+    text-align: center;
+    right: 50%;
+
+}
+#top_flying {
+    z-index: 2;
+    display: inline-block;
+    position: absolute;
+    top: 40px;
+    right: 35%;
+    width: 300px;
+
+
+}
+
+.middle {
+    width: 100%;
+    background-color: #FEFFDE;
+}
+
+
+.bottom {
+    height: 300px;
+    width: 100%;
+    background-color: #91C788;
+    padding-left: 10px;
+}
+
+#logo {
+    width: 70px;
+    margin: 0;
+}
+#portfolio_button {
+    left: 150px;
+}
+#about_button {
+    left: 250px;
+}
+#contact_button {
+    left: 350px;
+}
+#nest {
+    width: 100%;
+}
